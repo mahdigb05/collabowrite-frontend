@@ -13,7 +13,7 @@ const MarkDownPreview = (props: Props) => {
       children={value}
       remarkPlugins={[remarkGfm]}
       rehypePlugins={[rehypeRaw]}
-      className="prose font-mono h-full px-14 py-12 w-6/12 break-words"
+      className="prose font-mono h-full max-h-full px-14 py-12 w-6/12 break-words overflow-auto"
     />
   );
 };

@@ -85,7 +85,7 @@ const DocumentLibrary = () => {
           icon={SearchIcon}
           className="w-full"
           id="email1"
-          placeholder="document title, owner name, shared with..."
+          placeholder="document title, owner name, email..."
           type="text"
         />
       </div>
